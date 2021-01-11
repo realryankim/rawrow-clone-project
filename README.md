@@ -5,13 +5,22 @@ rawrow(https://www.rawrow.com) 클론 코딩 프로젝트입니다.
 * 구성 : 
   * Front-end : 배규덕, 이흥수, 김상준
   * Back-end  : 이수현, 문성호
-* [프론트 주소](https://github.com/wecode-bootcamp-korea/12-HellRowWorld-frontend)
-* [백엔드 주소](https://github.com/wecode-bootcamp-korea/12-HellRowWorld-backend)
+
+* [프로젝트 리뷰](https://velog.io/@realryankim/%EC%9C%84%EC%BD%94%EB%93%9C-1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9B%84%EA%B8%B0)
 
 # Stack
-* javascript
-* react
-* scss
+* Front-end
+  * HTML/CSS
+  * Javascript
+  * React
+  * SCSS
+
+* Back-end
+  * Python
+  * Django
+  * MySQL
+  * jwt, bcrypt
+  * beautifulsoup, selenium
 
 # Tool
 * Github
@@ -43,4 +52,3 @@ rawrow(https://www.rawrow.com) 클론 코딩 프로젝트입니다.
 ### 4. Signup / Login
   * validation
   * use token
-
