@@ -1,0 +1,328 @@
+.SignUp {
+  // Size
+  --padding: 10px 0;
+
+  // Font Size
+  --font-x-large: 90px;
+  --font-large: 24px;
+  --font-medium: 20px;
+  --font-small: 18px;
+  --font-micro: 16px;
+
+  max-width: 1280px;
+  margin: 120px auto 80px;
+  padding: 0 20px;
+
+  .subject {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+
+    h2 {
+      font-size: var(--font-large);
+      font-weight: 500;
+    }
+  }
+
+  #joinForm {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1300px;
+
+    .sectionLeft {
+      border-top: 2px solid #111;
+      width: 65%;
+
+      .phoneArea {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: var(--padding);
+        border-bottom: 2px solid #111;
+
+        .phone {
+          display: block;
+          min-width: 150px;
+          padding-right: 10px;
+          line-height: 40px;
+          text-align: left;
+          font-size: var(--font-medium);
+          font-weight: 700;
+        }
+
+        .phoneDesc {
+          display: flex;
+          padding-left: 20px;
+          align-items: center;
+
+          .phoneDropDown {
+            display: flex;
+            justify-content: space-between;
+            width: 193px;
+            border: 2px solid black;
+            font-weight: 500;
+            background-color: white;
+          }
+
+          .phoneInput {
+            display: flex;
+            justify-content: space-between;
+            width: 193px;
+            border: 2px solid black;
+            font-weight: 500;
+          }
+
+          span {
+            display: inline-block;
+            margin: 0 10px;
+            text-align: center;
+            vertical-align: middle;
+          }
+        }
+      }
+
+      .mobileArea {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: var(--padding);
+        border-bottom: 2px solid #111;
+
+        .mobile {
+          display: block;
+          min-width: 150px;
+          padding-right: 10px;
+          line-height: 40px;
+          text-align: left;
+          font-size: var(--font-medium);
+          font-weight: 700;
+        }
+
+        .mobileDesc {
+          display: flex;
+          padding-left: 20px;
+          align-items: center;
+
+          .mobileDropDown {
+            display: flex;
+            justify-content: space-between;
+            width: 193px;
+            border: 2px solid black;
+            font-weight: 500;
+
+            background-color: white;
+          }
+
+          span {
+            display: inline-block;
+            margin: 0 10px;
+            text-align: center;
+            vertical-align: middle;
+          }
+
+          .mobileInput {
+            display: flex;
+            justify-content: space-between;
+            width: 193px;
+            border: 2px solid black;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .emailArea {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: var(--padding);
+        border-bottom: 2px solid #111;
+
+        .email {
+          display: block;
+          min-width: 150px;
+          padding-right: 10px;
+          line-height: 40px;
+          text-align: left;
+          font-size: var(--font-medium);
+          font-weight: 700;
+        }
+
+        .emailDesc {
+          display: flex;
+          padding-left: 20px;
+          align-items: center;
+
+          .emailInput {
+            width: 635px;
+            border: 2px solid black;
+          }
+        }
+      }
+
+      .genderArea {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: var(--padding);
+        border-bottom: 2px solid #111;
+
+        .gender {
+          display: block;
+          min-width: 150px;
+          padding-right: 10px;
+          line-height: 40px;
+          text-align: left;
+          font-size: var(--font-medium);
+          font-weight: 700;
+        }
+
+        .genderDesc {
+          display: flex;
+          padding-left: 20px;
+          align-items: center;
+
+          label {
+            font-weight: 700;
+            font-size: var(--font-medium);
+          }
+        }
+      }
+
+      .birthdateArea {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: var(--padding);
+        border-bottom: 2px solid #111;
+
+        .birthdate {
+          display: block;
+          min-width: 150px;
+          padding-right: 10px;
+          line-height: 40px;
+          text-align: left;
+          font-size: var(--font-medium);
+          font-weight: 700;
+        }
+
+        .birthdateDesc {
+          display: flex;
+          padding-left: 20px;
+          align-items: center;
+
+          label {
+            font-weight: 700;
+            font-size: var(--font-medium);
+          }
+
+          .birthdateLine {
+            width: 147px;
+          }
+
+          span {
+            display: inline-block;
+            margin: 0 10px;
+            text-align: center;
+            vertical-align: middle;
+          }
+
+          .birthDateInput {
+            display: flex;
+            justify-content: space-between;
+            width: 144px;
+            border: 2px solid black;
+          }
+        }
+      }
+
+      .regionArea {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: var(--padding);
+        border-bottom: 2px solid #111;
+
+        .region {
+          display: block;
+          min-width: 150px;
+          padding-right: 10px;
+          line-height: 40px;
+          text-align: left;
+          font-size: var(--font-medium);
+          font-weight: 700;
+        }
+
+        .regionDesc {
+          display: flex;
+          padding-left: 20px;
+          align-items: center;
+
+          .regionDropdown {
+            width: 635px;
+            border: 2px solid black;
+            background-color: white;
+            font-size: var(--font-medium);
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .sectionRight {
+      width: 35%;
+      padding-left: 5%;
+
+      input {
+        cursor: pointer;
+      }
+
+      .termsBox {
+        padding: 10px 12px;
+        border: 2px solid black;
+        font-size: 14px;
+        font-weight: 700;
+        overflow-y: scroll;
+
+        &.allCheck {
+          margin-bottom: 50px;
+        }
+
+        .agreeAll {
+          margin-left: 81px;
+        }
+      }
+
+      .otherTermBox {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        line-height: 18px;
+        font-size: var(--font-micro);
+        font-weight: 700;
+
+        .termsBox {
+          margin: 5px 0;
+        }
+
+        .agreeCheck {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .joinBtn {
+        width: 100%;
+        padding: 15px 0;
+        margin-top: 40px;
+        line-height: 38px;
+        color: white;
+        background-color: black;
+        border: none;
+        outline: none;
+        font-size: var(--font-small);
+        font-weight: 700;
+        cursor: pointer;
+      }
+    }
+  }
+}
