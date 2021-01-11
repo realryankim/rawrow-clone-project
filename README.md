@@ -49,6 +49,6 @@ rawrow(https://www.rawrow.com) 클론 코딩 프로젝트입니다.
   * filtering
   * sub-category
   
-### 4. Signup / Login
-  * validation
-  * use token
+### <b>4. Signup / Login</b>
+  * <b>validation</b>
+  * <b>use token</b>
